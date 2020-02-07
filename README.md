@@ -31,15 +31,21 @@ pytest --gencase --caseformat rst test_case.py
 
 Format should be like following:
 
-##Test Cases
-###[test_a]
-{test doc str}
-
-**Steps:**
-
-1. Test case take:
-    {param_1}
-    and
-    {param_2}
-    Do something.
+> ## Test Cases
+>
+> ### [test_a]
+>
+> {test doc str}
+>
+> **Steps:**
+>
+> 1. Test case take:
+>
+> {param_1}
+>
+> and
+>
+> {param_2}
+>
+> Do something.
 ```
